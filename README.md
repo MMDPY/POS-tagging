@@ -1,5 +1,9 @@
 # Part-of-Speech (POS) Tagging using Hidden Markov Model (HMM) and Brill-tagger
 
+## Data
+
+The training data can be found in [data/train.txt](data/train.txt), the in-domain test data can be found in [data/test.txt](data/test.txt), and the out-of-domain test data can be found in [data/test_ood.txt](data/test_ood.txt).
+
 ## Execution
 Example usage: use the following command in the current directory.
 
@@ -29,9 +33,3 @@ For running the brill tagger with the best found template and rule count:
 For running the hmm tagger with the best found estimator on the ood data:
 
 `python3 src/main.py --tagger brill --train data/train.txt --test data/test_ood.txt --output output/test_ood_brill.txt`
-
-
-
-## Data
-
-The assignment's training data can be found in [data/train.txt](data/train.txt), the in-domain test data can be found in [data/test.txt](data/test.txt), and the out-of-domain test data can be found in [data/test_ood.txt](data/test_ood.txt).
