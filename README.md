@@ -1,38 +1,4 @@
-# Intro to NLP - Assignment 4
-
-## Team
-|Student name| CCID |
-|------------|------|
-|student 1   |   karimiab   |
-|student 2   |   azamani1   |
-
-Please note that CCID is **different** from your student number.
-
-## TODOs
-
-In this file you **must**:
-- [x] Fill out the team table above. 
-- [x] Make sure you submitted the URL on eClass.
-- [x] Acknowledge all resources consulted (discussions, texts, urls, etc.) while working on an assignment.
-- [x] Provide clear installation and execution instructions that TAs must follow to execute your code.
-- [x] List where and why you used 3rd-party libraries.
-- [x] Delete the line that doesn't apply to you in the Acknowledgement section.
-
-## Acknowledgement 
-In accordance with the UofA Code of Student Behaviour, we acknowledge that  
-(**delete the line that doesn't apply to you**)
-
-- We did not consult any external resource for this assignment.
-- We have listed all external resources we consulted for this assignment.
-
- Non-detailed oral discussion with others is permitted as long as any such discussion is summarized and acknowledged by all parties.
-
-## 3-rd Party Libraries
-You do not need to list `nltk` and `pandas` here.
-
-* `main.py L:[12]` used `[sklearn.model_selection]` for [importing the KFold class object].
-* `main.py L:[90]` used `[numpy]` for [using numpy.mean to take average of the list].
-* `main.py L:[246]` used `[numpy]` for [using numpy.argmax to find the index of the maximum accuracy].
+# Part-of-Speech (POS) Tagging using Hidden Markov Model (HMM) and Brill-tagger
 
 ## Execution
 Example usage: use the following command in the current directory.
